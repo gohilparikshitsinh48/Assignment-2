@@ -37,5 +37,18 @@ printf("%d(b) is smallest.\n",b);
 printf("%d(c) is smallest.\n",c);
 
 }
+ if(a>=b && a>=c)
+ {
+  printf("%d(a) is largest.\n",a);
+ }
+ else if(b>=a && b>=c)
+ {
+  printf("%d(b) is largest.\n",b);
+  
+ }
+ else
+ {
+  printf("%d(c) is largest.\n",c)
+ }
 }
  return 0;
